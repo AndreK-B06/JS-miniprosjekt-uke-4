@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #001d3d;
+  color: #31e1a5;
+  margin: 50px;
+}
+/* -----------------------------
+!!!!!!!!!!! Container + Dices !!!!!!!!!!!!
+-------------------------------*/
+.Container {
+  margin-top: 40px;
+}
+.dice {
+  display: flex;
+  margin: 30px;
+  padding-right: 20px;
+}
+#d10Result,
+#d12Result,
+#d20Result,
+#d100Result {
+  padding-inline: 20px;
+  margin-left: 20px;
+  color: #31e1a5;
+}
+/* -----------------------------
+!!!!!!!!!!! Button's !!!!!!!!!!!!
+-------------------------------*/
+
+button {
+  border-radius: 20px;
+  padding: 5px 15px;
+  background-color: #423993;
+  color: #31e1a5;
+  border: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Dice Roller</h1>
+    <div class="Container">
+      <!-- -----------------
+        !!!!!!!! D10!!!!!!!
+        ---------------------->
+      <div class="dice">
+        <button onclick="rollD10()">Roll d10</button>
+        <p id="d10Result"></p>
+      </div>
+      <!-- ---------------
+            !!!!!!! D12 !!!!!!!
+        ------------------->
+      <div class="dice">
+        <button onclick="rollD12()">Roll d12</button>
+        <p id="d12Result"></p>
+      </div>
+      <!-- ---------------
+            !!!!!!! D20 !!!!!!!
+        ------------------->
+      <div class="dice">
+        <button onclick="rollD20()">Roll d20</button>
+        <p id="d20Result"></p>
+      </div>
+      <!-- ---------------
+            !!!!!!! D100 !!!!!!!
+        ------------------->
+      <div class="dice">
+        <button onclick="rollD100()">Roll d100</button>
+        <p id="d100Result"></p>
+        <!-- ---------------
+            !!!!!!! Reset !!!!!!!
+        ------------------->
+      </div>
+      <div class="dice">
+        <button onclick="resetAll()">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
