@@ -32,6 +32,10 @@ body {
   margin-left: 20px;
   color: #31e1a5;
 }
+#reset-dice {
+  background-color: gray;
+  color: lightgray;
+}
 /* -----------------------------
 !!!!!!!!!!! Button's !!!!!!!!!!!!
 -------------------------------*/

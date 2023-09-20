@@ -35,6 +35,5 @@ function rollD100() {
 //---------------------
 function resetAll() {
   let reset = document.getElementById("resetAll");
-  d100Result.remove();
-  return d100;
+  d100Result.reset();
 }
