@@ -26,10 +26,14 @@ body {
 }
 #d10Result,
 #d12Result,
-#d20Result,
-#d100Result {
+#d20Result {
   padding-inline: 20px;
   margin-left: 20px;
+  color: #31e1a5;
+}
+#d100Result {
+  padding-inline: 20px;
+  margin-left: 15px;
   color: #31e1a5;
 }
 #reset-dice {
